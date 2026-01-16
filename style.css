@@ -451,3 +451,45 @@ footer {
 .mag-card a:hover {
   text-decoration: underline;
 }
+
+body {
+  background: #f4f6f8;
+}
+
+.magazine-hero {
+  background: linear-gradient(180deg, #ffffff, #f1f5f9);
+}
+
+.hero-content h1 {
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.mag-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mag-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.tag {
+  background: #e2e8f0;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+}
+
+.mag-card a,
+.hero-content a {
+  color: #1d4ed8;
+}
+
+.mag-card a:hover {
+  text-decoration: underline;
+}
