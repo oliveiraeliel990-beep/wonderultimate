@@ -377,3 +377,77 @@ footer {
   font-size: 0.95rem;
   letter-spacing: 0.4px;
 }
+
+.magazine-hero {
+  background: #f8fafc;
+  padding: 90px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 15px 0;
+  color: #020617;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 700px;
+  color: #334155;
+}
+
+.hero-content a {
+  display: inline-block;
+  margin-top: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2563eb;
+}
+
+.hero-content a:hover {
+  text-decoration: underline;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #2563eb;
+  letter-spacing: 1px;
+}
+
+.magazine-grid {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+.mag-card {
+  border-top: 2px solid #020617;
+  padding-top: 20px;
+}
+
+.mag-card h3 {
+  font-size: 1.3rem;
+  margin: 12px 0 15px;
+  color: #020617;
+}
+
+.mag-card a {
+  font-weight: bold;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.mag-card a:hover {
+  text-decoration: underline;
+}
