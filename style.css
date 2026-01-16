@@ -143,3 +143,17 @@ footer {
 ul li {
   margin-bottom: 8px;
 }
+
+/* FOOTER IGUAL AO TOPO */
+footer {
+  background: linear-gradient(90deg, #0b5ed7, #084298);
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
