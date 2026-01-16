@@ -204,3 +204,29 @@ footer p {
 .card {
   margin-bottom: 30px;
 }
+
+/* LINKS DO TOPO */
+header a {
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 12px;
+  text-decoration: none;
+  position: relative;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* LINKS DO FOOTER */
+footer a {
+  color: #d1d1d1;
+  font-size: 0.95rem;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
