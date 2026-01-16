@@ -196,7 +196,7 @@ footer p {
 
 /* MAIS ESPAÇO ENTRE OS CARDS */
 .cards {
-  gap: 45px;           /* espaço entre os cards */
+  gap: 35px;           /* espaço entre os cards */
   padding: 40px 20px;  /* espaço ao redor do bloco */
 }
 
@@ -230,3 +230,4 @@ footer a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
+
