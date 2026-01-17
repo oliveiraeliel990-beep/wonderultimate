@@ -748,3 +748,20 @@ header small {
   fill: #ffffff !important;
   stroke: #ffffff !important;
 }
+
+/* ============================= */
+/* HAMBURGER AZUL (APENAS ELE)   */
+/* ============================= */
+
+.hamburger span,
+.menu-toggle span,
+.hamburger div {
+  background-color: #4da3ff !important; /* azul claro elegante */
+}
+
+/* Se o hamburger for SVG */
+.hamburger svg,
+.hamburger svg path {
+  fill: #4da3ff !important;
+  stroke: #4da3ff !important;
+}
