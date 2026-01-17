@@ -130,3 +130,90 @@ footer a:hover {
     font-size: 1.6rem;
   }
 }
+
+/* ===== TOPO ===== */
+header {
+  background: linear-gradient(90deg, #0d47a1, #1976d2);
+  padding: 25px 15px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #e3f2fd;
+  margin-bottom: 15px;
+}
+
+/* ===== MENU TOPO ===== */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: #bbdefb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  nav ul li a {
+    color: #e3f2fd;
+    font-size: 16px;
+  }
+}
+
+/* ===== CATEGORIAS E ARTIGOS ===== */
+section a,
+main a,
+.article-list a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+section a:hover,
+main a:hover,
+.article-list a:hover {
+  text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+footer a {
+  color: #90caf9;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
