@@ -217,3 +217,85 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* ===== ESTILO REVISTA ===== */
+.revista {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+/* ARTIGO PRINCIPAL */
+.destaque {
+  background: #f5f7fa;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.destaque h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.destaque p {
+  font-size: 17px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.btn-destaque {
+  display: inline-block;
+  color: #0d6efd;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-destaque:hover {
+  text-decoration: underline;
+}
+
+/* CATEGORIA */
+.categoria {
+  font-size: 13px;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+/* GRID DE ARTIGOS */
+.grid-artigos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.grid-artigos article {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.grid-artigos h3 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.grid-artigos a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.grid-artigos a:hover {
+  text-decoration: underline;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .destaque h2 {
+    font-size: 24px;
+  }
+
+  .grid-artigos {
+    grid-template-columns: 1fr;
+  }
+}
