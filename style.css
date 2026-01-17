@@ -514,36 +514,3 @@ section {
   text-decoration: underline;
 }
 
-/* Topo site */
-header {
-  text-align: center;
-  padding: 20px;
-  position: relative;
-}
-
-header h1 {
-  margin-bottom: 5px;
-}
-
-header p {
-  margin-top: 0;
-  color: #555;
-}
-
-/* Links topo */
-.topo-links {
-  text-align: center;
-  margin: 10px 0 20px 0;
-}
-
-.topo-links a {
-  margin: 0 15px;
-  color: #4da3ff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.topo-links a:hover {
-  color: #1e88e5;
-}
-
