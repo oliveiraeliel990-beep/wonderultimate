@@ -129,37 +129,6 @@
     <a href="termos.html">Termos de Uso</a>
   </p>
 </footer>
-
-<script>
-const hamburger = document.getElementById('hamburger');
-const menu = document.getElementById('menu-lateral');
-
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active'); // animação X
-  menu.classList.toggle('aberto');      // abre/fecha menu
-});
-
-// Abrir/fechar submenus com animação
-const items = document.querySelectorAll('.menu-lateral > ul > li > a');
-
-items.forEach(item => {
-  item.addEventListener('click', (e) => {
-    const parent = item.parentElement;
-    const submenu = parent.querySelector('.submenu');
-    if(submenu){
-      e.preventDefault();
-      parent.classList.toggle('active');
-    }
-  });
-});
-</script>
-
-  const hamburger = document.getElementById("hamburger");
-const menu = document.getElementById("menu-lateral");
-
-hamburger.addEventListener("click", () => {
-  menu.classList.toggle("active");
-});
   
 <script src="script.js"></script>  
 </body>
