@@ -765,3 +765,45 @@ header small {
   fill: #4da3ff !important;
   stroke: #4da3ff !important;
 }
+
+/* ============================= */
+/* COR PADRÃO DOS LINKS DO TOPO */
+/* ============================= */
+
+header a,
+nav a {
+  color: #ffffff !important;
+}
+
+/* Hover elegante */
+header a:hover,
+nav a:hover {
+  color: #4da3ff !important; /* azul claro */
+}
+
+/* ============================= */
+/* GARANTIR MESMA COR EM TODAS AS TELAS */
+/* ============================= */
+
+@media (min-width: 769px) {
+  header a,
+  nav a {
+    color: #ffffff !important;
+  }
+}
+
+/* ============================= */
+/* CATEGORIAS E LISTAS DE ARTIGOS */
+/* ============================= */
+
+.categorias a,
+.lista-artigos a,
+.menu-lateral a {
+  color: #ffffff;
+}
+
+.categorias a:hover,
+.lista-artigos a:hover,
+.menu-lateral a:hover {
+  color: #4da3ff;
+}
