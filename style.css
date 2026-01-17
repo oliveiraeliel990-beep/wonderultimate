@@ -5,10 +5,11 @@
 }
 
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
   background: #f4f7fb;
   color: #1f2933;
-  line-height: 1.7;
+  line-height: 1.75;
+}
 }
 
 /* TOPO */
@@ -171,3 +172,4 @@ footer a {
 footer a:hover {
   color: #ffffff;
 }
+
