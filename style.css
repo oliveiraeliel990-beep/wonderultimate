@@ -975,3 +975,129 @@ a:hover {
   color: #1e6cff !important;
   font-weight: 500;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  color: #222;
+}
+
+/* TOPO */
+.topo {
+  background: linear-gradient(135deg, #0a3d91, #0d6efd);
+  color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.topo h1 {
+  font-size: 28px;
+}
+
+.topo p {
+  opacity: 0.9;
+}
+
+.topo-links {
+  margin-top: 10px;
+}
+
+.topo-links a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* HAMBURGER */
+.menu-hamburger {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.menu-hamburger span {
+  display: block;
+  height: 3px;
+  background: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* ANIMAÇÃO X */
+.menu-hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* MENU LATERAL */
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: -320px;
+  width: 300px;
+  height: 100%;
+  background: #0a3d91;
+  color: #fff;
+  padding: 20px;
+  transition: left 0.4s ease;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.menu-lateral.active {
+  left: 0;
+}
+
+.menu-lateral ul {
+  list-style: none;
+}
+
+.menu-lateral li {
+  margin-bottom: 15px;
+}
+
+.menu-lateral span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.menu-lateral a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.menu-lateral a:hover {
+  color: #4da3ff;
+}
+
+/* CONTEÚDO */
+.conteudo {
+  padding: 30px;
+}
+
+/* FOOTER */
+.footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
