@@ -669,3 +669,43 @@ header p {
 .topo-links a:hover {
   color: #4f4f4f; /* cinza mais escuro no hover */
 }
+
+/* ===== RESET TOPO PARA BRANCO ===== */
+
+/* Fundo do header (garantia) */
+header {
+  background-color: #000; /* ou a cor escura que você usa no topo */
+}
+
+/* Título principal */
+header h1 {
+  color: #ffffff;
+}
+
+/* Subtítulo */
+header p {
+  color: #ffffff;
+}
+
+/* Links do topo */
+header a {
+  color: #ffffff;
+}
+
+/* Hover dos links */
+header a:hover {
+  opacity: 0.8;
+}
+
+/* ===== HAMBURGER MENU ===== */
+
+/* Container do hamburger */
+.hamburger span {
+  background-color: #ffffff;
+}
+
+/* Caso use ::before e ::after */
+.hamburger::before,
+.hamburger::after {
+  background-color: #ffffff;
+}
