@@ -173,3 +173,10 @@ footer a:hover {
   color: #ffffff;
 }
 
+.section-title {
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+  border-left: 6px solid #2563eb;
+  padding-left: 15px;
+  color: #0f172a;
+}
