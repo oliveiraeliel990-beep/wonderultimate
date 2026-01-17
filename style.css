@@ -957,3 +957,21 @@ header p,
     display: none;
   }
 }
+
+/* Links da revista / cards */
+a,
+a:visited {
+  color: #1e6cff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Caso seja botão ou link especial */
+.revista a,
+.card a {
+  color: #1e6cff !important;
+  font-weight: 500;
+}
