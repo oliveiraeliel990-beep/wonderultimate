@@ -128,8 +128,145 @@
   </p>
 </footer>
 
+  /* Topo site */
+header {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header p {
+  margin-top: 0;
+  color: #555;
+}
+
+/* Links topo */
+.topo-links {
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+.topo-links a {
+  margin: 0 15px;
+  color: #4da3ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.topo-links a:hover {
+  color: #1e88e5;
+}
+
+/* Hamburger animado */
+.menu-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.menu-hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #4da3ff;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Transform hamburger em X */
+.menu-hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Menu lateral */
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+  padding-top: 60px;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  z-index: 999;
+}
+
+.menu-lateral.aberto {
+  transform: translateX(0);
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-lateral li {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.menu-lateral a {
+  color: #4da3ff;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.menu-lateral li > a:hover {
+  color: #1e88e5;
+}
+
+/* Submenu oculto */
+.menu-lateral ul ul.submenu {
+  max-height: 0;
+  overflow: hidden;
+  padding-left: 15px;
+  transition: max-height 0.3s ease;
+}
+
+/* Submenu visível quando pai ativo */
+.menu-lateral li.active > ul.submenu {
+  max-height: 500px; /* altura suficiente para mostrar todos os itens */
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .menu-hamburger {
+    display: flex;
+  }
+
+  .menu-lateral {
+    display: block;
+  }
+
+  header h1, header p, .topo-links {
+    text-align: center;
+  }
+}
+
 </body>
 </html>
+
 
 
 
