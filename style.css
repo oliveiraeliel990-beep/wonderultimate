@@ -834,3 +834,126 @@ a {
 a:hover {
   color: #4da3ff !important;
 }
+
+/* ===============================
+   TOPO
+================================ */
+
+header {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #0b3ea8, #0a2f7a);
+}
+
+header h1,
+header p,
+.topo-links a {
+  color: #ffffff;
+}
+
+.topo-links {
+  margin-top: 10px;
+}
+
+.topo-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* ===============================
+   HAMBURGER
+================================ */
+
+.menu-hamburger {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 30px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 10001;
+}
+
+.menu-hamburger span {
+  height: 4px;
+  background: #1e6cff; /* azul */
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* ===============================
+   MENU LATERAL
+================================ */
+
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 280px;
+  height: 100vh;
+  background: #ffffff;
+  padding: 30px 20px;
+  transition: left 0.3s ease;
+  z-index: 10000;
+  overflow-y: auto;
+}
+
+.menu-lateral.active {
+  left: 0;
+}
+
+/* Links principais */
+.menu-lateral > ul > li > a {
+  font-weight: 700;
+  color: #1e6cff;
+  text-decoration: none;
+  display: block;
+  margin: 15px 0 5px;
+}
+
+/* Submenu */
+.menu-lateral .submenu {
+  padding-left: 15px;
+}
+
+.menu-lateral .submenu li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 6px 0;
+}
+
+/* ===============================
+   OVERLAY (FUNDO ESCURO)
+================================ */
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 9999;
+}
+
+.menu-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* ===============================
+   MOBILE AJUSTES
+================================ */
+
+@media (max-width: 768px) {
+  .topo-links {
+    display: none;
+  }
+}
