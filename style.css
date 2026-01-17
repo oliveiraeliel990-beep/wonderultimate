@@ -709,3 +709,7 @@ header a:hover {
 .hamburger::after {
   background-color: #ffffff;
 }
+
+.hamburger span {
+  background-color: #ffffff !important;
+}
