@@ -807,3 +807,20 @@ nav a:hover {
 .menu-lateral a:hover {
   color: #4da3ff;
 }
+
+/* ============================= */
+/* CATEGORIAS – COR VISÍVEL SEM HOVER */
+/* ============================= */
+
+.categorias a,
+.menu-lateral a {
+  color: #e0e0e0; /* cinza claro elegante */
+  text-decoration: none;
+  display: block;
+}
+
+/* Hover */
+.categorias a:hover,
+.menu-lateral a:hover {
+  color: #4da3ff; /* azul claro */
+}
