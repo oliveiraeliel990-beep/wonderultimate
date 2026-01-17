@@ -549,7 +549,7 @@ header p {
 
 /* Hamburger animado */
 .menu-hamburger {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -558,7 +558,7 @@ header p {
   position: absolute;
   top: 25px;
   left: 20px;
-  z-index: 1000;
+  z-index: 1001;
 }
 
 .menu-hamburger span {
@@ -649,3 +649,4 @@ header p {
     text-align: center;
   }
 }
+
