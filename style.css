@@ -713,3 +713,38 @@ header a:hover {
 .hamburger span {
   background-color: #ffffff !important;
 }
+
+/* ============================= */
+/* FORÇAR TOPO TOTALMENTE BRANCO */
+/* ============================= */
+
+header,
+header * {
+  color: #ffffff !important;
+}
+
+/* Links do topo */
+header a {
+  color: #ffffff !important;
+}
+
+/* Subtítulo (frase abaixo do título) */
+header p,
+header span,
+header small {
+  color: #ffffff !important;
+}
+
+/* Hamburger (3 barrinhas) */
+.hamburger span,
+.hamburger div,
+.menu-toggle span {
+  background-color: #ffffff !important;
+}
+
+/* Se usar SVG no hamburger */
+.hamburger svg,
+.hamburger svg path {
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
