@@ -824,3 +824,13 @@ nav a:hover {
 .menu-lateral a:hover {
   color: #4da3ff; /* azul claro */
 }
+
+/* TESTE FORÇADO – SE ISSO NÃO FUNCIONAR, O PROBLEMA É A CLASSE */
+
+a {
+  color: #e0e0e0 !important;
+}
+
+a:hover {
+  color: #4da3ff !important;
+}
