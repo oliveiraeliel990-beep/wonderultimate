@@ -472,3 +472,26 @@ article h2 {
   box-shadow: 0 10px 25px rgba(0,0,0,.08);
 }
 
+/* ===== TOPO CENTRALIZADO ===== */
+header .topo {
+  text-align: center !important;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+header nav a {
+  margin: 0 !important;
+}
+
+header .topo h1 {
+  letter-spacing: 1px;
+}
+
+header .topo p {
+  opacity: 0.9;
+}
