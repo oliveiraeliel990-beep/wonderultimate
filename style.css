@@ -521,3 +521,37 @@ header .topo p {
   margin: 14px auto 0;
   border-radius: 4px;
 }
+
+/* ===== LEIA TAMBÉM ===== */
+.leia-tambem {
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #dee2e6;
+}
+
+.leia-tambem h2 {
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.leia-tambem ul {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: auto;
+}
+
+.leia-tambem li {
+  margin-bottom: 12px;
+}
+
+.leia-tambem a {
+  text-decoration: none;
+  color: #0b5ed7;
+  font-weight: 500;
+}
+
+.leia-tambem a:hover {
+  text-decoration: underline;
+}
