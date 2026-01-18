@@ -495,3 +495,29 @@ header .topo h1 {
 header .topo p {
   opacity: 0.9;
 }
+
+/* ===== TÍTULO DO ARTIGO (FAIXA EDITORIAL) ===== */
+.titulo-artigo {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin: 40px auto 20px;
+  line-height: 1.25;
+  max-width: 900px;
+}
+
+@media (max-width: 600px) {
+  .titulo-artigo {
+    font-size: 1.8rem;
+  }
+}
+
+.titulo-artigo::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: #0b5ed7;
+  margin: 14px auto 0;
+  border-radius: 4px;
+}
