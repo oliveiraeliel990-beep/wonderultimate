@@ -74,11 +74,10 @@ nav a:hover::after {
   width: 100%;
 }
 
-/* CONTAINER */
 .container {
   max-width: 1200px;
-  margin: 50px auto;
-  padding: 0 20px;
+  margin: auto;
+  padding: 0 16px;
 }
 
 /* ARTIGO PRINCIPAL */
@@ -429,4 +428,5 @@ footer {
   color: #ffffff;
   text-decoration: underline;
 }
+
 
