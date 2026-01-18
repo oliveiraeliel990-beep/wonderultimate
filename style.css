@@ -364,3 +364,25 @@ footer a:hover {
   color: var(--azul);
 }
 
+header {
+  background: linear-gradient(135deg, #0b5ed7, #084298) !important;
+}
+
+.topo {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.topo h1 {
+  color: white;
+  font-size: 2.6rem;
+}
+
+.topo p {
+  color: #dbeafe;
+}
+
+nav a {
+  color: white;
+}
