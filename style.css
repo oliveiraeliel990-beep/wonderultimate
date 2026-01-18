@@ -613,3 +613,67 @@ header .topo p {
   margin-bottom: 10px;
   color: #084298;
 }
+
+.hero {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #cbd5f5;
+  line-height: 1.6;
+}
+
+.btn-hero {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #38bdf8;
+  color: #020617;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btn-hero:hover {
+  background: #0ea5e9;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #020617;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.card h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.card a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
