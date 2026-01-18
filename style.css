@@ -429,4 +429,46 @@ footer {
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-artigo {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 25px 0;
+}
+
+article {
+  max-width: 850px;
+  margin: auto;
+}
+
+article p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+}
+
+article h2 {
+  margin-top: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
 
