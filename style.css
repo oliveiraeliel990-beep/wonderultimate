@@ -12,34 +12,38 @@ body {
 }
 }
 
-/* TOPO */
+/* ===== TOPO / HEADER ===== */
 header {
-  background: linear-gradient(135deg, #0b3c5d, #1e6091);
-  color: #fff;
-  padding: 40px 20px;
-  text-align: center;
+  background: linear-gradient(135deg, #0b5ed7, #084298);
 }
 
-header h1 {
-  font-size: 2.8rem;
-  letter-spacing: 1px;
+.topo {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
 }
 
-header p {
-  margin-top: 10px;
-  font-size: 1.1rem;
+.topo h1 {
+  color: white;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.topo p {
   color: #dbeafe;
+  margin-top: 6px;
+  font-size: 1.1rem;
 }
 
 nav {
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 nav a {
-  color: #ffffff;
-  margin: 0 12px;
+  margin-right: 22px;
   text-decoration: none;
-  font-weight: 600;
+  color: white;
+  font-weight: 500;
   position: relative;
 }
 
@@ -47,11 +51,11 @@ nav a::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -5px;
+  bottom: -6px;
   width: 0;
   height: 2px;
-  background: #93c5fd;
-  transition: width 0.3s;
+  background: #dbeafe;
+  transition: width .3s;
 }
 
 nav a:hover::after {
@@ -359,3 +363,4 @@ footer a {
 footer a:hover {
   color: var(--azul);
 }
+
