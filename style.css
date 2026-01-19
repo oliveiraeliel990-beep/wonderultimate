@@ -715,3 +715,45 @@ img {
   font-size: 1.05rem;
   color: #222;
 }
+
+.leia-tambem {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.leia-tambem h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.leia-tambem ul {
+  list-style: none;
+  padding: 0;
+  columns: 1;
+}
+
+.leia-tambem li {
+  margin-bottom: 12px;
+}
+
+.leia-tambem a {
+  color: #0f5bd8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.leia-tambem a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .leia-tambem ul {
+    columns: 2;
+  }
+}
+
+footer {
+  margin-top: 60px;
+}
