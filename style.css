@@ -757,3 +757,23 @@ img {
 footer {
   margin-top: 60px;
 }
+
+/* FORÇA TEXTO BRANCO NO TOPO */
+.topo-site,
+.topo-site h1,
+.topo-site p,
+.topo-site a {
+  color: #ffffff;
+}
+
+.topo-artigo,
+.topo-artigo h2,
+.topo-artigo p {
+  color: #ffffff;
+}
+
+.footer-site,
+.footer-site p,
+.footer-site a {
+  color: #ffffff;
+}
