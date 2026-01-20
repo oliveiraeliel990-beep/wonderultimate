@@ -772,3 +772,76 @@ footer {
   color: #ffffff;
 }
 
+/* BLOCO REVISTA */
+.revista {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+/* ARTIGO PRINCIPAL */
+.artigo-principal {
+  background: #f5f5f5;
+  padding: 3rem;
+  border-radius: 12px;
+}
+
+.artigo-principal h2 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.artigo-principal p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.btn-leia {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* CATEGORIA */
+.categoria {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #777;
+}
+
+/* GRID DE CARDS */
+.grid-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin: 0.7rem 0;
+}
+
+.card a {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .revista {
+    grid-template-columns: 1fr;
+  }
+
+  .artigo-principal h2 {
+    font-size: 2rem;
+  }
+}
