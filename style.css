@@ -1142,3 +1142,58 @@ footer {
   }
 }
 
+.mais-lidos {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.mais-lidos h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  border-left: 6px solid #ff3d00;
+  padding-left: 12px;
+  color: #111;
+}
+
+.mais-lidos-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mais-lidos-lista li {
+  margin-bottom: 15px;
+}
+
+.mais-lidos-lista a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #ffffff;
+  padding: 18px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #111;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mais-lidos-lista a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.rank {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff3d00;
+  min-width: 30px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
