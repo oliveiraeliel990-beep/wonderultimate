@@ -1050,7 +1050,6 @@ footer {
   gap: 40px;
 }
 
-/* MATÉRIA PRINCIPAL */
 .materia-principal {
   position: relative;
   background: linear-gradient(
@@ -1059,27 +1058,24 @@ footer {
   ),
   url("img/ia.webp") center/cover no-repeat;
 
-  padding: 60px;
-  border-radius: 16px;
+  padding: 90px 80px; /* AUMENTOU */
+  border-radius: 20px;
   color: #fff;
-}
-
-.materia-principal .categoria {
-  background: #ffcc00;
-  color: #000;
-  padding: 4px 10px;
-  font-size: 0.8rem;
-  border-radius: 6px;
+  min-height: 420px; /* força destaque grande */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .materia-principal h2 {
-  margin: 15px 0 10px;
-  font-size: 2rem;
+  margin: 20px 0 15px;
+  font-size: 2.8rem; /* MAIOR */
+  line-height: 1.2;
 }
 
 .materia-principal p {
-  max-width: 600px;
-  font-size: 1.1rem;
+  max-width: 720px;
+  font-size: 1.25rem; /* MAIOR */
 }
 
 .btn-ler {
@@ -1092,30 +1088,24 @@ footer {
   font-weight: bold;
 }
 
-/* CARDS */
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 28px; /* MAIS ESPAÇO */
 }
 
 .card {
   background: #fff;
-  border-radius: 14px;
-  padding: 20px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-radius: 18px;
+  padding: 30px; /* AUMENTOU */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   position: relative;
+  min-height: 220px; /* deixa todos grandes */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 5px;
-  width: 100%;
-  background: #ffcc00;
-  border-radius: 14px 14px 0 0;
 }
 
 .card .categoria {
@@ -1125,8 +1115,9 @@ footer {
 }
 
 .card h3 {
-  margin: 10px 0 15px;
-  font-size: 1rem;
+  margin: 15px 0 20px;
+  font-size: 1.2rem;
+  line-height: 1.3;
 }
 
 .card a {
@@ -1134,10 +1125,17 @@ footer {
   color: #000;
 }
 
-/* RESPONSIVO */
 @media (max-width: 900px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .materia-principal {
+    padding: 60px 40px;
+  }
+
+  .materia-principal h2 {
+    font-size: 2.2rem;
   }
 }
 
@@ -1147,6 +1145,11 @@ footer {
   }
 
   .materia-principal {
-    padding: 30px;
+    padding: 40px 25px;
+    min-height: 340px;
+  }
+
+  .materia-principal h2 {
+    font-size: 1.8rem;
   }
 }
