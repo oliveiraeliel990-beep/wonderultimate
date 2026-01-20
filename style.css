@@ -1020,3 +1020,24 @@ footer {
   }
 }
 
+/* ===== FOOTER SEM ESPAÇO BRANCO NO MOBILE ===== */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* main precisa existir */
+main {
+  flex: 1;
+}
+
+/* footer sempre colado no fim */
+footer {
+  margin-top: auto;
+}
