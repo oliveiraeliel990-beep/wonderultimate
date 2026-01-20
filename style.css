@@ -1041,3 +1041,112 @@ main {
 footer {
   margin-top: auto;
 }
+
+/* ===== LAYOUT REVISTA ===== */
+
+.revista {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* MATÉRIA PRINCIPAL */
+.materia-principal {
+  position: relative;
+  background: linear-gradient(
+    rgba(0,0,0,0.55),
+    rgba(0,0,0,0.55)
+  ),
+  url("img/ia.webp") center/cover no-repeat;
+
+  padding: 60px;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.materia-principal .categoria {
+  background: #ffcc00;
+  color: #000;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+}
+
+.materia-principal h2 {
+  margin: 15px 0 10px;
+  font-size: 2rem;
+}
+
+.materia-principal p {
+  max-width: 600px;
+  font-size: 1.1rem;
+}
+
+.btn-ler {
+  display: inline-block;
+  margin-top: 20px;
+  background: #ffcc00;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background: #ffcc00;
+  border-radius: 14px 14px 0 0;
+}
+
+.card .categoria {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+.card h3 {
+  margin: 10px 0 15px;
+  font-size: 1rem;
+}
+
+.card a {
+  font-weight: bold;
+  color: #000;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .materia-principal {
+    padding: 30px;
+  }
+}
