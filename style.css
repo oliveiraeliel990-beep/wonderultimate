@@ -877,8 +877,111 @@ footer {
   }
 }
 
+/* ===== LAYOUT REVISTA ===== */
+
 .container {
   max-width: 1200px;
   margin: auto;
   padding: 3rem 1.5rem;
 }
+
+.revista {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* ===== ARTIGO PRINCIPAL ===== */
+
+.artigo-principal {
+  background: transparent;
+}
+
+.artigo-principal .categoria {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+.artigo-principal h2 {
+  font-size: 2.6rem;
+  margin: 0.5rem 0 1rem;
+  color: #111;
+}
+
+.artigo-principal .subtitulo {
+  font-size: 1rem;
+  color: #555;
+  max-width: 480px;
+}
+
+.ler-principal {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #005eff;
+  text-decoration: none;
+}
+
+/* ===== CARDS ===== */
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin: 0.8rem 0;
+  color: #111;
+}
+
+.card a {
+  font-size: 0.9rem;
+  color: #005eff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* ===== TAGS ===== */
+
+.tag {
+  font-size: 0.7rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.ciencia { background: #e6f0ff; color: #005eff; }
+.humano  { background: #e9f7ef; color: #0f8a5f; }
+.neuro   { background: #f3e8ff; color: #7a3db8; }
+.bio     { background: #fff4e5; color: #d97706; }
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 900px) {
+  .revista {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .artigo-principal h2 {
+    font-size: 2rem;
+  }
+}
+  padding: 3rem 1.5rem;
+}
+
