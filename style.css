@@ -851,3 +851,28 @@ footer {
   margin: 0 auto;
   padding: 1.5rem;
 }
+
+.revista {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .revista {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .artigo-principal {
+    padding: 2rem 1.5rem;
+  }
+}
