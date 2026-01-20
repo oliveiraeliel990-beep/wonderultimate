@@ -133,18 +133,6 @@ nav a:hover::after {
   position: relative;
 }
 
-.card::before {
-  content: "Artigo";
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  background: #2563eb;
-  color: #fff;
-  font-size: 0.75rem;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-weight: bold;
-}
 
 .card:hover {
   transform: translateY(-8px);
@@ -1153,3 +1141,4 @@ footer {
     font-size: 1.8rem;
   }
 }
+
