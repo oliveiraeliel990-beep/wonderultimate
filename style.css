@@ -1319,3 +1319,19 @@ footer {
   opacity: 1;
   transition: opacity 0.6s ease;
 }
+
+.mais-lidos a .titulo,
+.mais-lidos a span.titulo {
+  color: #111;          /* preto forte, mas elegante */
+  font-weight: 600;     /* destaque sem ficar pesado */
+}
+
+.mais-lidos a:hover .titulo {
+  color: #0056d6; /* azul do site */
+}
+
+@media (max-width: 768px) {
+  .mais-lidos a .titulo {
+    font-size: 1rem;
+  }
+}
