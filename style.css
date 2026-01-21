@@ -1258,3 +1258,34 @@ footer {
   opacity: 1;
   transition: opacity 0.5s ease;
 }
+
+/* FAIXA FULL WIDTH - ESTILO PORTAL */
+.curiosidades-full {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background: #0f172a; /* azul/preto elegante */
+  color: #fff;
+  padding: 30px 0;
+}
+
+/* Conteúdo centralizado dentro da faixa */
+.curiosidades-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Título */
+.curiosidades-inner h2 {
+  font-size: 1.3rem;
+  white-space: nowrap;
+}
+
+/* Texto da curiosidade */
+.curiosidades-inner p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
