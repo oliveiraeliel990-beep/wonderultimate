@@ -116,9 +116,13 @@
   </ul>
 </section>
 
-<section class="curiosidades-rapidas">
+<section class="curiosidades-rotativas">
   <h2>⚡ Curiosidades rápidas</h2>
-
+  <p id="curiosidade-texto">
+    Carregando curiosidade...
+  </p>
+</section>
+  
   <h3>🔭 Espaço & Universo</h3>
   <ul>
     <li>Existem mais estrelas no universo observável do que grãos de areia nas praias da Terra.</li>
@@ -163,8 +167,38 @@
   </div>
 </footer>
 
+  <script>
+const curiosidades = [
+  "🔭 Existem mais estrelas no universo do que grãos de areia em todas as praias da Terra.",
+  "🧠 O cérebro pode criar memórias falsas sem que a pessoa perceba.",
+  "🧪 A água quente pode congelar mais rápido que a fria.",
+  "🌍 Cleópatra viveu mais perto da invenção do iPhone do que das pirâmides.",
+  "🤖 Um celular moderno é mais poderoso que os computadores da NASA nos anos 60.",
+  "🧬 Algumas árvores se comunicam por redes subterrâneas de fungos.",
+  "⚡ O silêncio pode causar mais desconforto psicológico do que críticas.",
+  "🪐 Um dia em Vênus é mais longo que um ano no planeta."
+];
+
+let indice = 0;
+const texto = document.getElementById("curiosidade-texto");
+
+function trocarCuriosidade() {
+  texto.style.opacity = 0;
+
+  setTimeout(() => {
+    texto.textContent = curiosidades[indice];
+    texto.style.opacity = 1;
+    indice = (indice + 1) % curiosidades.length;
+  }, 500);
+}
+
+trocarCuriosidade();
+setInterval(trocarCuriosidade, 5000);
+</script>
+
 </body>
 </html>
+
 
 
 
