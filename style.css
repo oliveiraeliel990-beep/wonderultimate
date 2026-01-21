@@ -1294,3 +1294,28 @@ footer {
   transition: opacity 0.6s ease;
   font-size: 1.1rem;
 }
+
+.curiosidades-full {
+  width: 100%;
+  background: linear-gradient(90deg, #111, #1f1f1f);
+  padding: 24px 16px;
+}
+
+.curiosidades-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.curiosidades-inner h2 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #ffcc00;
+}
+
+#curiosidade-texto {
+  font-size: 1rem;
+  color: #ffffff;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
