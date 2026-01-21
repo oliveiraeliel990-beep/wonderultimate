@@ -1238,3 +1238,23 @@ footer {
 .curiosidades-rapidas ul li {
   line-height: 1.6;
 }
+
+.curiosidades-rotativas {
+  background: #111;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.curiosidades-rotativas h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+#curiosidade-texto {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: auto;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
