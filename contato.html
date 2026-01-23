@@ -1,29 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>Contato | Wonder Ultimate</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Contato | Wonder Ultimate</title>
+  <meta name="description" content="Entre em contato com o Wonder Ultimate para sugestões, dúvidas ou parcerias.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contato.css">
 </head>
 
 <body>
-<header>
-<h1>Contato</h1>
+
+<header class="topo">
+  <div class="container">
+    <h1>Fale Conosco</h1>
+    <p>Envie sua dúvida, sugestão ou mensagem</p>
+  </div>
 </header>
 
-<main>
-<p>
-Para entrar em contato, envie um e-mail para:
-<br><strong>contato@wonderultimate.com</strong>
-</p>
+<main class="container conteudo">
+
+  <section>
+    <h2>Entre em Contato</h2>
+    <p>
+      Quer sugerir um tema, tirar dúvidas sobre algum artigo ou falar conosco sobre parcerias?  
+      Preencha o formulário abaixo.
+    </p>
+  </section>
+
+  <section class="formulario-contato">
+    <form action="https://formsubmit.co/seuemail@email.com" method="POST">
+      
+      <!-- Impede spam -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+
+      <label for="assunto">Assunto</label>
+      <input type="text" id="assunto" name="assunto" placeholder="Sobre o que você quer falar?" required>
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <section class="info-extra">
+    <h2>Importante</h2>
+    <p>
+      Não compartilhamos suas informações com terceiros. Seus dados serão utilizados apenas
+      para responder sua mensagem, conforme nossa <a href="privacidade.html">Política de Privacidade</a>.
+    </p>
+  </section>
+
 </main>
 
-<footer>
-  <p>© 2026 Wonder Ultimate — Todos os direitos reservados.</p>
-  <p>
-    <a href="privacidade.html">Política de Privacidade</a> |
-    <a href="termos.html">Termos de Uso</a>
-  </p>
+<footer class="rodape">
+  <p>© 2026 Wonder Ultimate — Conteúdo educativo e informativo</p>
 </footer>
 
 </body>
