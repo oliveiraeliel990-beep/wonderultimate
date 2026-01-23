@@ -1649,3 +1649,38 @@ header,
   content: none !important;
   background: none !important;
 }
+
+/* ===== COR PADRÃO DO SITE ===== */
+:root{
+  --azul-petroleo: #0e2a38;
+}
+
+/* ===== TOPO DO SITE ===== */
+.topo-site,
+header.topo-site {
+  background: var(--azul-petroleo) !important;
+  background-image: none !important;
+}
+
+/* ===== FOOTER ===== */
+footer,
+.footer,
+.footer-site,
+.footer-container {
+  background: var(--azul-petroleo) !important;
+  background-image: none !important;
+  color: #ffffff !important;
+}
+
+/* Links do footer */
+footer a,
+.footer a,
+.footer-site a {
+  color: #ffffff !important;
+}
+
+footer a:hover,
+.footer a:hover,
+.footer-site a:hover {
+  opacity: 0.85;
+}
