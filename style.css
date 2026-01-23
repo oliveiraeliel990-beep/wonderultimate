@@ -1335,3 +1335,69 @@ footer {
     font-size: 1rem;
   }
 }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.topo {
+  background: linear-gradient(135deg, #16222A, #3A6073);
+  color: white;
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.topo h1 {
+  margin: 0;
+  font-size: 2.3rem;
+}
+
+.topo p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.conteudo {
+  background: white;
+  padding: 35px;
+  margin-top: -25px;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: #16222A;
+  margin-top: 30px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #2a5298;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.rodape {
+  text-align: center;
+  padding: 30px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
