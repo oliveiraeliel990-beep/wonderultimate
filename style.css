@@ -1633,3 +1633,19 @@ a:hover {
   background: transparent;
 }
 
+/* ===== FORÇA COR DO TOPO (REMOVE QUALQUER GRADIENTE/VERDE) ===== */
+header,
+.topo,
+.topo-site {
+  background: #0e2a38 !important; /* Azul petróleo puro */
+  background-image: none !important;
+}
+
+/* Remove possíveis sobreposições invisíveis */
+.topo::before,
+.topo::after,
+.topo-site::before,
+.topo-site::after {
+  content: none !important;
+  background: none !important;
+}
