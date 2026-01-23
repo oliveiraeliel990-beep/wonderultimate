@@ -1622,5 +1622,13 @@ a:hover {
   color: #0e2a38;
 }
 
+/* FAIXA DO TOPO DA HOME */
+.topo {
+  background: #0e2a38; /* Azul petróleo */
+  color: white;
+}
 
-
+/* Garantir que o container interno não quebre a cor */
+.topo .container {
+  background: transparent;
+}
