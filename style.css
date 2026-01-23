@@ -1632,15 +1632,3 @@ a:hover {
   color: white;
 }
 
-.topo-artigo {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: white;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.topo-site,
-.footer-site,
-.topo-artigo {
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-}
