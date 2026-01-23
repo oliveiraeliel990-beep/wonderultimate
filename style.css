@@ -1401,3 +1401,54 @@ a:hover {
   font-size: 0.9rem;
   color: #777;
 }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.topo {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.topo h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.conteudo {
+  background: white;
+  padding: 30px;
+  margin-top: -20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+h2 {
+  color: #1e3c72;
+  margin-top: 25px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.rodape {
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
