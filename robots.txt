@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wonderultimate.com/sitemap.xml
+
+Sitemap: https://oliveiraeliel990-beep.github.io/wonderultimate/sitemap.xml
