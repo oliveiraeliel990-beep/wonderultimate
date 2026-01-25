@@ -1658,7 +1658,7 @@ header,
 /* ===== TOPO DO SITE ===== */
 .topo-site,
 header.topo-site {
-  background: var(--azul-petroleo) !important;
+  background: linear-gradient(to right, #0D47A1, #1565C0);
   background-image: none !important;
 }
 
@@ -1667,7 +1667,7 @@ footer,
 .footer,
 .footer-site,
 .footer-container {
-  background: var(--azul-petroleo) !important;
+ background: linear-gradient(to right, #0D47A1, #1565C0);
   background-image: none !important;
   color: #ffffff !important;
 }
@@ -1684,3 +1684,4 @@ footer a:hover,
 .footer-site a:hover {
   opacity: 0.85;
 }
+
