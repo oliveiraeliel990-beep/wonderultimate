@@ -1351,7 +1351,7 @@ body {
 }
 
 .topo {
-  background: #0e2a38;
+  background: #1565C0;
   color: white;
   text-align: center;
   padding: 45px 20px;
@@ -1417,7 +1417,7 @@ body {
 }
 
 .topo {
-  background: #0e2a38;
+  background: #1565C0;
   color: white;
   text-align: center;
   padding: 40px 20px;
@@ -1450,7 +1450,7 @@ ul {
   padding: 25px;
   margin-top: 40px;
   font-size: 0.9rem;
-  color: #0e2a38;
+  color: #1565C0;
 }
 
 body {
@@ -1468,7 +1468,7 @@ body {
 }
 
 .topo {
-  background: #0e2a38;
+  background: #1565C0;
   color: white;
   text-align: center;
   padding: 45px 20px;
@@ -1553,7 +1553,7 @@ a:hover {
   padding: 30px;
   margin-top: 40px;
   font-size: 0.9rem;
-  color: #0e2a38;
+  color: #1565C0;
 }
 
 body {
@@ -1571,7 +1571,7 @@ body {
 }
 
 .topo {
-  background: #0e2a38;
+  background: #1565C0;
   color: white;
   text-align: center;
   padding: 45px 20px;
@@ -1619,12 +1619,12 @@ a:hover {
   padding: 30px;
   margin-top: 40px;
   font-size: 0.9rem;
-  color: #0e2a38;
+  color: ##1565C0;
 }
 
 /* FAIXA DO TOPO DA HOME */
 .topo {
-  background: #0e2a38; /* Azul petróleo */
+  background: ##1565C0; /* Azul  */
   color: white;
 }
 
@@ -1637,7 +1637,7 @@ a:hover {
 header,
 .topo,
 .topo-site {
-  background: #0e2a38 !important; /* Azul petróleo puro */
+  background: #1565C0 !important; /* Azul  puro */
   background-image: none !important;
 }
 
@@ -1652,13 +1652,13 @@ header,
 
 /* ===== COR PADRÃO DO SITE ===== */
 :root{
-background: linear-gradient(to right, #0D47A1, #1565C0);
+  #1565C0;
 }
 
 /* ===== TOPO DO SITE ===== */
 .topo-site,
 header.topo-site {
-  background: linear-gradient(to right, #0D47A1, #1565C0);
+  background: #1565C0;
   background-image: none !important;
 }
 
@@ -1667,7 +1667,7 @@ footer,
 .footer,
 .footer-site,
 .footer-container {
- background: ;
+ background: #1565C0;
   background-image: none !important;
   color: #ffffff !important;
 }
@@ -1684,13 +1684,3 @@ footer a:hover,
 .footer-site a:hover {
   opacity: 0.85;
 }
-
-header {
-  background: linear-gradient(to right, #0D47A1, #1565C0);
-}
-
-footer {
-  background: linear-gradient(to right, #0D47A1, #1565C0);
-}
-
-
