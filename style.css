@@ -1652,7 +1652,7 @@ header,
 
 /* ===== COR PADRÃO DO SITE ===== */
 :root{
-  --azul-petroleo: #0e2a38;
+background: linear-gradient(to right, #0D47A1, #1565C0);
 }
 
 /* ===== TOPO DO SITE ===== */
@@ -1667,7 +1667,7 @@ footer,
 .footer,
 .footer-site,
 .footer-container {
- background: linear-gradient(to right, #0D47A1, #1565C0);
+ background: ;
   background-image: none !important;
   color: #ffffff !important;
 }
@@ -1684,4 +1684,5 @@ footer a:hover,
 .footer-site a:hover {
   opacity: 0.85;
 }
+
 
